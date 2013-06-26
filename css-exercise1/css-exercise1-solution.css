@@ -53,14 +53,14 @@ ul li.main-menu:hover {
   border-top:1px solid #6D6D6D;
   border-left:1px solid #6D6D6D;
   border-right:1px solid #6D6D6D;
-  border-bottom:none;
+  border-bottom:1px solid white;
+  padding-top:7px;
 }
 
 ul li.main-menu:hover a {
   color: #8C8C8C;
   padding-left:19px;
   padding-right:19px;
-  padding-top:6px;
 }
 
 ul li:hover ul, ul li ul:hover {
@@ -75,7 +75,7 @@ ul li:hover ul, ul li ul:hover {
   list-style-type:none;
   float:left;
   list-style-position:inside;
-  margin-top:7px;
+  margin-top:8px;
   margin-left:-1px;
   border-top:none;
 }
