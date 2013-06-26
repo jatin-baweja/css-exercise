@@ -1,0 +1,131 @@
+#header {
+  width:100%;
+  margin:0 auto;
+  border-bottom:2px solid #DB2927;
+}
+
+#logo {
+  height:70px;
+  width:200px;
+  background-image:url(vinsol-logo.png);
+  background-repeat:no-repeat;
+}
+
+#contact-details {
+  float:right;
+  position:relative;
+  bottom:20px;
+  font-family:Tahoma;
+  font-size:13px;
+  color:black;
+}
+
+#contact-details a {
+  text-decoration:none;
+  color:#045198;
+}
+
+#contact-email {
+  float:right;
+  margin-right:20px;
+}
+
+#contact-skype {
+  float:right;
+}
+
+#main-container {
+  width:500px;
+  margin:0 auto;
+  margin-top:20px;
+}
+
+#box-head {
+  font-family:Tahoma;
+  font-size:18px;
+  color:#2C286D;
+}
+
+#box {
+  border:1px solid #BCBCBC;
+  width:500px;
+  background-color:#ECECEC;
+  padding-bottom:20px;
+  padding-top:20px;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+#inner-form {
+  display:inline;
+}
+
+.tag {
+  display:inline-block;
+  width:100px;
+  text-align:right;
+  padding-right:20px;
+  font-family:Tahoma;
+  font-size:14px;
+  color:black;
+  padding-top:5px;
+  vertical-align:text-bottom;
+}
+
+#address-text {
+  vertical-align:top;
+}
+
+.formelement {
+  display:inline-block;
+  width:370px;
+  text-align:left;
+  padding-top:5px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  width:360px;
+  height:25px;
+  background-color:white;
+  border:1px solid #B9B9B9;
+}
+
+
+.formelement label, .formelement select option, .formelement select {
+  font-family:Tahoma;
+  font-size:13px;
+  color:#6F6F6F;
+}
+
+.formelement select {
+  width:110px;
+  margin-right:5px;
+}
+
+.formelement textarea {
+  background-color:white;
+  border:1px solid #B9B9B9;
+  width:360px;
+  height:135px;
+}
+
+#submit-button {
+  float:right;
+  padding-right:5px;
+}
+
+#submit {
+  display:inline-block;
+  background-color:#DC2927;
+  border:1px solid #A10200;
+  width:130px;
+  height:32px;
+  text-align:center;
+  font-family:Tahoma;
+  font-size:14px;
+  color:white;
+}
+
+#empty-text {
+  height:32px;
+}
