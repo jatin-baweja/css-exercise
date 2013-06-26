@@ -1,0 +1,116 @@
+ul, li {
+  margin:0;
+  padding:0;
+}
+
+ul {
+  display:inline-block;
+  list-style-type:none;
+  width:auto;
+  height:37px;
+  border-bottom:solid 1px #6D6D6D;
+}
+
+li {
+  display:inline-block;
+  position:relative;
+}
+
+li.main-menu {
+  text-decoration:none;
+  font-family:"Georgia";
+  font-size:18px;
+  color:black;
+  font-style:italic;
+  background-color:#CFCFCF;
+  display:inline-block;
+  margin-left:2px;
+  height:auto;
+  padding-top:8px;
+  padding-bottom:7px;
+}
+
+li.main-menu:first-child {
+  margin-left:0px;
+}
+
+a:link, a:visited {
+  text-decoration:none;
+  color:black;
+}
+
+li.main-menu a {
+  padding-left:20px;
+  padding-right:20px;
+}
+
+ul li ul {
+  display:none;
+}
+
+ul li.main-menu:hover {
+  background-color:white;
+  border-top:1px solid #6D6D6D;
+  border-left:1px solid #6D6D6D;
+  border-right:1px solid #6D6D6D;
+  border-bottom:none;
+}
+
+ul li.main-menu:hover a {
+  color: #8C8C8C;
+  padding-left:19px;
+  padding-right:19px;
+  padding-top:6px;
+}
+
+ul li:hover ul, ul li ul:hover {
+  text-decoration:none;
+  display:block;
+  position:absolute;
+  width:200px;
+  background-color:white;
+  border:1px solid #6D6D6D;
+  padding:10px;
+  height:auto;
+  list-style-type:none;
+  float:left;
+  list-style-position:inside;
+  margin-top:7px;
+  margin-left:-1px;
+  border-top:none;
+}
+
+ul li:hover ul li, ul li ul:hover li {
+  display:inline-block;
+  padding-left:0px;
+  padding-right:0px;
+  padding-top:5px;
+  padding-bottom:5px;
+  text-decoration:none;
+  font-family:"Georgia";
+  font-size:14px;
+  color:black;
+  font-style:italic;
+  border-bottom:1px solid #CFCFCF;
+  white-space:nowrap;
+  width:100%;
+}
+
+ul li:hover ul li:last-child, ul li ul:hover li:last-child {
+  border-bottom:0px;
+}
+
+ul li.main-menu:hover ul li a, ul li.main-menu ul:hover li a {
+  padding-top:5px;
+  margin-top:0px;
+  margin-bottom:0px;
+  padding-bottom:5px;
+  padding-left:0px;
+  padding-right:0px;
+  height:auto;
+  color:black;
+}
+
+ul li.main-menu ul li:hover a, ul li.main-menu ul li a:hover {
+  color:#BD0707;
+}
